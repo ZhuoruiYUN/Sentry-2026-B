@@ -1,0 +1,30 @@
+# Keil MDK 编译产物
+*.o
+*.d
+*.axf
+*.hex
+*.bin
+*.map
+*.lnp
+*.dep
+*.uvguix.*
+*.uvoptx
+*.bak
+*.lst
+*.crf
+*.iex
+
+# Keil 输出目录
+Output/
+Listings/
+Objects/
+RTE/
+DebugConfig/
+
+# 调试相关
+*.JLinkLog
+*.log
+
+# Windows
+Thumbs.db
+desktop.ini
