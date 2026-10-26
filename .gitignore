@@ -28,3 +28,17 @@ DebugConfig/
 # Windows
 Thumbs.db
 desktop.ini
+
+# 当前工程的本机配置与 Keil 生成目录
+/.claude/
+/.vscode/
+/MDK-ARM/.vscode/
+/MDK-ARM/FINAL-2026/
+/MDK-ARM/RTE/
+/MDK-ARM/DebugConfig/
+/MDK-ARM/*.log
+/MDK-ARM/*.lst
+
+# 保留已验证生成的烧录文件
+!firmware/
+!firmware/FINAL-2026.hex
